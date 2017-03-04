@@ -11,7 +11,7 @@ if !has('gui_running')
   endif
 endif
 
-let g:airline#themes#base16_tomorrow#palette = {}
+let g:airline#themes#kidonchu#palette = {}
 let s:gui00 = "#1d1f21"
 let s:gui01 = "#282a2e"
 let s:gui02 = "#373b41"
@@ -59,37 +59,37 @@ endif
 let s:N1   = [ s:gui01, s:gui0B, s:cterm01, s:cterm0B, 'bold' ]
 let s:N2   = [ s:gui06, s:gui02, s:cterm06, s:cterm02 ]
 let s:N3   = [ s:gui09, s:gui01, s:cterm09, s:cterm01, 'bold' ]
-let g:airline#themes#base16_tomorrow#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
+let g:airline#themes#kidonchu#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 
 let s:I1   = [ s:gui01, s:gui0D, s:cterm01, s:cterm0D, 'bold' ]
 let s:I2   = [ s:gui06, s:gui02, s:cterm06, s:cterm02 ]
 let s:I3   = [ s:gui09, s:gui01, s:cterm09, s:cterm01 ]
-let g:airline#themes#base16_tomorrow#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
+let g:airline#themes#kidonchu#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 
 let s:R1   = [ s:gui01, s:gui08, s:cterm01, s:cterm08 ]
 let s:R2   = [ s:gui06, s:gui02, s:cterm06, s:cterm02 ]
 let s:R3   = [ s:gui09, s:gui01, s:cterm09, s:cterm01 ]
-let g:airline#themes#base16_tomorrow#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
+let g:airline#themes#kidonchu#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 
 let s:V1   = [ s:gui01, s:gui0E, s:cterm01, s:cterm0E ]
 let s:V2   = [ s:gui06, s:gui02, s:cterm06, s:cterm02 ]
 let s:V3   = [ s:gui09, s:gui01, s:cterm09, s:cterm01 ]
-let g:airline#themes#base16_tomorrow#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
+let g:airline#themes#kidonchu#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 
 let s:IA1   = [ s:gui05, s:gui01, s:cterm00, s:cterm03 ]
 let s:IA2   = [ s:gui05, s:gui01, s:cterm00, s:cterm03 ]
 let s:IA3   = [ s:gui05, s:gui01, s:cterm00, s:cterm03 ]
-let g:airline#themes#base16_tomorrow#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
+let g:airline#themes#kidonchu#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
 
 let s:T1   = [ s:gui01, s:gui0B, s:cterm01, s:cterm0B, 'bold' ]
 let s:T2   = [ s:gui05, s:gui01, s:cterm07, s:cterm02 ]
 let s:T3   = [ s:gui05, s:gui01, s:cterm05, s:cterm01 ]
-let g:airline#themes#base16_tomorrow#palette.tabline = airline#themes#generate_color_map(s:T1, s:T2, s:T3)
+let g:airline#themes#kidonchu#palette.tabline = airline#themes#generate_color_map(s:T1, s:T2, s:T3)
 
 let s:TT1   = [ s:gui03, s:gui06, s:cterm03, s:cterm06 ]
 let s:TT2   = [ s:gui03, s:gui06, s:cterm03, s:cterm06 ]
 let s:TT3   = [ s:gui05, s:gui01, s:cterm03, s:cterm06 ]
-let g:airline#themes#base16_tomorrow#palette.test = airline#themes#generate_color_map(s:TT1, s:TT2, s:TT3)
+let g:airline#themes#kidonchu#palette.test = airline#themes#generate_color_map(s:TT1, s:TT2, s:TT3)
 
 " Here we define the color map for ctrlp.  We check for the g:loaded_ctrlp
 " variable so that related functionality is loaded iff the user is using
@@ -98,7 +98,7 @@ let g:airline#themes#base16_tomorrow#palette.test = airline#themes#generate_colo
 if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
-let g:airline#themes#base16_tomorrow#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
+let g:airline#themes#kidonchu#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
       \ [ s:gui07, s:gui02, s:cterm07, s:cterm02, '' ],
       \ [ s:gui07, s:gui04, s:cterm07, s:cterm04, '' ],
       \ [ s:gui05, s:gui01, s:cterm05, s:cterm01, 'bold' ])
